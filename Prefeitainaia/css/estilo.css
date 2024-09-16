@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: black;
+    
+
+}
+header{
+    background-color: #00bf63;
+    display:flex;
+    padding: 0;
+    height: 180px;
+    margin-bottom: 40px;
+}
+header #logo{
+    padding: 0;
+    margin:0;
+    float: left;
+    background-size: 50%;
+}
+nav ul{
+    list-style: none;
+    display:flex;
+    gap: 15px;
+
+}
+nav ul li{
+    font-size: 30px;
+    color: white;
+    flex-direction: row;
+    text-align: right;
+}
+section{
+    margin: 30px 0;
+}
+h1{
+    color:white;
+    margin: 20px;
+    text-align: center;
+}
+
+.txt h6{
+    color:white;
+    font-size: 28px;
+    font-weight: 200;
+    width: 80%;
+    margin: 40px auto 0;
+    text-align: center;
+}
+.button{
+    background-color: black;
+    color: #00bf63;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+.icons .icon{
+    text-align: center;
+}
+footer{
+    background-color: #00bf63;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    margin-top: 300px;
+
+}
